@@ -1,11 +1,12 @@
 import React from "react";
-import { FaPauseCircle, FaPlayCircle } from "react-icons/fa";
+import { HiOutlinePause } from "react-icons/hi";
+import { BsPlay } from "react-icons/bs";
 
 const PlayPause = ({ isPlaying, activeSong, song, handlePause, handlePlay }) =>
   isPlaying && activeSong?.title === song.title ? (
-    <FaPauseCircle size={35} className="text-gray-300" onClick={handlePause} />
+    <HiOutlinePause size={35} className="text-gray-300" onClick={handlePause} />
   ) : (
-    <FaPlayCircle size={35} className="text-gray-300" onClick={handlePlay} />
+    <BsPlay size={35} className="text-gray-300" onClick={handlePlay} />
   );
 
 export default PlayPause;
