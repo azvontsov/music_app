@@ -1,4 +1,4 @@
-# Newtube - A Youtube Clone
+# Music App - a Better Spotify
 
 ![A Youtube Clone](https://res.cloudinary.com/antonjs/image/upload/v1665406766/music-01_itlexc.png "Music App")
 
