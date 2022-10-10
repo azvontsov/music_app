@@ -31,7 +31,7 @@ You can also give this repository a star to show more people and they can use th
 
 ## :books: Available Scripts
 
-This is a [React.js](https://reactjs.org/) project with Material UI [`create-react-app`](https://create-react-app.dev/).
+This is a [React.js](https://reactjs.org/) project with a Tailwind and Redux [`create-react-app`](https://create-react-app.dev/).
 
 First, run the development server:
 
