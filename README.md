@@ -1,136 +1,56 @@
-# Project Lyrics
+# Newtube - A Youtube Clone
 
-Develop an elegant React.js Music Application. 
+![A Youtube Clone](https://res.cloudinary.com/antonjs/image/upload/v1665406766/music-01_itlexc.png "Music App")
 
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
+[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/azvontsov "Ask Me Anything!")
+[![GitHub license](https://img.shields.io/github/license/Technical-Shubham-tech/tiktok-clone?)](https://github.com/Technical-Shubham-tech/tiktok-clone/blob/main/LICENSE.md "GitHub license")
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/azvontsov/newtube/commits/main "Maintenance")
+[![GitHub branches](https://badgen.net/github/branches/Technical-Shubham-tech/tiktok-clone/)](https://github.com/azvontsov/newtube/branches "GitHub branches")
+[![Github commits](https://badgen.net/github/commits/Technical-Shubham-tech/tiktok-clone/main/)](https://github.com/azvontsov/newtube/commits "Github commits")
+[![Netlify Deployment](https://img.shields.io/badge/Netlify-27B799?style=for-the-badge&logo=netlify&logoColor=white)](https://new-tube.netlify.app// "Netlify Deployment")
 
-# Contributing
+## :camera: Screenshots:
 
-When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+![Profile Page](https://res.cloudinary.com/antonjs/image/upload/v1665407017/music-02_lpp4if.png "Related Songs Page")
 
+![Upload New Posts](https://res.cloudinary.com/antonjs/image/upload/v1665407017/music-03_tgx0at.png "Lyrics Page")
 
-## System Requirements
+## :gear: Built with
 
-To get started with development, you need to install few tools
+[<img src="https://img.shields.io/badge/JavaScript-FCDC00?style=for-the-badge&logo=javascript&logoColor=white" width="150"  />](https://www.javascript.com/ "JavaScript")
 
-1. git 
-   
-   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
+[<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" width="150" />](https://reactjs.org/ "React JS")
 
-   To check your version of git, run:
+[<img src="https://img.shields.io/badge/TAILWIND_CSS-007FFF?style=for-the-badge&logo=material-ui&logoColor=white" width="150" />](https://mui.com/ "TailwindCss")
 
-   ```shell
-    git --version
-   ```
+[<img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="Built with Love">](https://github.com/azvontsov "Built with Love")
 
-2. node 
-   
-   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
+## :star: Give A Star
 
-   To check your version of node, run:
+You can also give this repository a star to show more people and they can use this repository.
 
-   ```shell
-    node --version
-   ```
+## :books: Available Scripts
 
-3. npm
-  
-   `npm` version 5.6.1 or higher. You will have it after you install node.
+This is a [React.js](https://reactjs.org/) project with Material UI [`create-react-app`](https://create-react-app.dev/).
 
-   To check your version of npm, run:
+First, run the development server:
 
-   ```shell
-    npm --version
-   ```
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## Setup
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To set up a development environment, please follow these steps:
+[API routes](https://rapidapi.com/hub). This endpoint can be edited in `utils/fetchFromAPI`.
 
-1. Clone the repo
+## :page_with_curl: Learn More
 
-   ```shell
-    git clone https://github.com/JavaScript-Mastery-PRO/project1_team4_repository.git
-   ```
+To learn more about RapidAPI, take a look at the following resources:
 
-2. Change directory to the project directory
+- [RapidAPI Documentation](https://rapidapi.com/hub) - learn about RapidAPI features.
 
-    ```shell
-    cd project1_team4_repository
-    ```
+## Deploy on Netlify
 
-3. Install the dependencies
-   
-    ```shell
-     npm install
-    ```
-
-    If you get an error, please check the console for more information.
-
-    If you don't get an error, you are ready to start development.
-
-4. Run the app
-   
-    ```shell
-    npm run dev
-    ```
-
-    Project will be running in the browser.
-
-    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-## Issues
-
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/orgs/JavaScript-Mastery-PRO/projects/8). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
-
-Please try to create bug reports that are:
-
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
-
-
-## Pull Request
-
-There are 2 main work flows when dealing with pull requests:
-
-* Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
-* Pull Request from a branch within a repository
-
-Here we are going to focus on 2. Creating a Topical Branch:
-
-
-1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
-
-   ```bash
-    git pull origin main
-   ```
-
-   *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
-
-2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`. 
-   
-   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
-   
-   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
-
-   ```bash
-    git checkout -b jsm-dev main
-    git push origin jsm-dev
-   ```
-
-3. To create a pull request, you must have changes committed to your new branch.
-
-4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
-
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
-
-6. Follow the template and fill in the proper information for the pull request.
-
-7. Click on the `Submit` button.
-
-8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
-
-#
+The easiest way to deploy your React.js app is to use the [Netlify Platform](https://www.netlify.com/)
